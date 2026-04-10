@@ -1,0 +1,264 @@
+:root {
+    --brand-laranja: #FC8301;
+    --brand-laranja2: #F0752D;
+    --brand-rosaclaro: #FF5874;
+    --brand-rosaescuro: #CD1179;
+    --brand-preto: #2A2A2A; /* versão melhorada */
+    --brand-branco: #FFFFFF;
+}
+
+/* ================= TIPOGRAFIA ================= */
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.titulo {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+}
+
+.texto {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ================= CORES ================= */
+
+.bg-brand-laranja {
+    background-color: var(--brand-laranja);
+}
+
+.bg-brand-laranja2 {
+    background-color: var(--brand-laranja2);
+}
+
+.bg-brand-rosaclaro {
+    background-color: var(--brand-rosaclaro);
+}
+
+.bg-brand-rosaescuro {
+    background-color: var(--brand-rosaescuro);
+}
+
+.bg-brand-preto {
+    background-color: var(--brand-preto);
+}
+
+/* Gradientes */
+
+.bg-brand-rosalaranja {
+    background: linear-gradient(90deg, rgba(205, 17, 121, 1) 0%, rgba(240, 117, 45, 1) 100%);
+}
+
+.bg-brand-laranjarosa {
+    background: linear-gradient(271deg, rgba(205, 17, 121, 1) 0%, rgba(240, 117, 45, 1) 100%);
+}
+
+.bg-brand-laranjarosa1 {
+    background: linear-gradient(182deg, rgba(255, 101, 10, 1) 0%, rgba(205, 17, 121, 1) 100%);
+}
+
+/* ================= TEXTOS ================= */
+
+.text-brand-preto {
+    color: var(--brand-preto);
+}
+
+.text-brand-branco {
+    color: var(--brand-branco);
+}
+
+.text-brand-laranja {
+    color: var(--brand-laranja);
+}
+
+.text-brand-rosa {
+    color: var(--brand-rosaescuro);
+}
+
+.text-brand-rosalaranja {
+    background: linear-gradient(90deg, #CD1179, #F0752D);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.texto-descricao {
+    max-width: 450px;
+    line-height: 1.6;
+}
+
+.text-highlight {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px; /* 🔥 aumenta */
+  line-height: 1.3;
+
+  background: linear-gradient(90deg, #CD1179, #F0752D);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-description {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #6b6b6b;  
+    line-height: 1.7; 
+}
+
+
+/* ================= BOTÕES ================= */
+
+.btn-brand-laranjarosa {
+    background: linear-gradient(292deg, rgba(240, 117, 45, 1) 39%, rgba(211, 34, 108, 1) 69%);
+}
+
+.btn-brand-rosalaranja {
+    background: linear-gradient(90deg, rgba(240, 117, 45, 1) 14%, rgba(205, 17, 121, 1) 74%);
+}
+
+.btn-brand-cinza {
+    background-color: #E3E3E3;
+}
+
+/* ================= INTERAÇÃO ================= */
+
+.dedinho {
+    cursor: pointer;
+}
+
+.dedinho:hover {
+    color: var(--brand-preto);
+}
+
+/* ================= ELEMENTOS ================= */
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.rede {
+    width: 55px;
+    height: 55px;
+}
+
+/* ================= HERO ================= */
+
+.hero-home {
+    background: linear-gradient(292deg, rgba(240, 117, 45, 1) 39%, rgba(211, 34, 108, 1) 69%);
+    text-align: center;
+    align-items: center;
+}
+
+/* .hero-contato {
+    
+} */
+
+
+/* *********************IMAGENS********************* */
+
+.imagem-hero {
+    max-height: 700px;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-left: auto;
+    display: block;
+}
+
+.fotoequipe{
+  width: 450px;
+  height: auto;
+  border-radius: 40px;
+  margin-top: 40px;
+}
+ 
+
+/* ================= COMPONENTES ================= */
+
+.card-contato {
+    background: linear-gradient(180deg, #FF6A00, #E6007E);
+    border-radius: 40px;
+    padding: 120px 20px;
+    width: 300px;
+}
+
+.icone-contato {
+    font-size: 60px;
+    color: white;
+}
+
+.card-contato .btn {
+    border-radius: 50px;
+    padding: 10px 50px;
+}
+
+/* Instagram */
+
+.instagram-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--brand-rosaescuro);
+    color: white;
+    padding: 14px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+.instagram-box2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background: linear-gradient(90deg,rgba(208, 24, 116, 1) 0%, rgba(224, 72, 79, 1) 50%, rgba(240, 117, 45, 1) 100%);
+    padding: 10px 90px;
+    border-radius: 16px;
+
+    width: fit-content;
+    margin-top: 20px;
+}
+.instagram-boxing{
+    width: 80px;
+    height: 80px;
+}
+.instagram-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.icone {
+    background: white;
+    border-radius: 133px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.icone img {
+    width: 50px;
+    height: auto;
+}
+
+.right-content {
+  max-width: 420px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-content > * {
+    margin-top: 18px;
+}
